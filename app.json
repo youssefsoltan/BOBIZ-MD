@@ -1,7 +1,7 @@
 {
-    "name": "BOBIZ - MD",
-    "description": "BOBIZMD  - Makes it easy and fun to use Whatsapp.",
-    "logo": "https://telegra.ph/file/201b5c02be1e336a29c60.jpg",
+    "name": "RAIZEL - MD",
+    "description": "RAIZELMD  - Makes it easy and fun to use Whatsapp.",
+    "logo": "https://telegra.ph/file/39272916fd98efa5fec86.jpg",
     "keywords": ["whatsapp", "userbot", "bobiz", "bot", "ai" , "MD" ],
     "repository": "https://github.com/bobizbotmd/BOBIZ-MD",
     "website":   "",
@@ -21,7 +21,7 @@
       },
            "URL_1LINK": {
             "description": "",
-            "value": "https://wa.me/+967770500831 " ,
+            "value": "https://wa.me/+967770500831" ,
             "required": true
       },
      "URL_2NAME": {
