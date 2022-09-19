@@ -590,7 +590,7 @@ https://wa.me/+967770500831
               case 'المطور' :
 		const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + `FN:` + 'noureddine_ouafy' + `\n` // full name
+            + `FN:` + ' 𝚁𝚊𝚒𝚣𝚎𝚕 𝙶𝚎𝚘𝚛𝚐𝚎 ' + `\n` // full name
             + 'TEL;type=CELL;type=VOICE;waid=' + '967770500831' + ':+' + '967770500831' + '\n' // WhatsApp ID + phone number
             + 'END:VCARD'
  await conn.sendMessage(from,{ contacts: { displayName: 'noureddine_ouafy' , contacts: [{ vcard }]  }} , { quoted: mek })      
