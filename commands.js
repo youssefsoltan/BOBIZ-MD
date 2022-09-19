@@ -122,7 +122,7 @@ mek = mek.messages[0]
 	        const isQuotedImage = v.quoted ? ((v.quoted.type === 'imageMessage') || (isQuotedViewOnce ? (v.quoted.msg.type === 'imageMessage') : false)) : false
 	        const isQuotedVideo = v.quoted ? ((v.quoted.type === 'videoMessage') || (isQuotedViewOnce ? (v.quoted.msg.type === 'videoMessage') : false)) : false
           if ((v.type === 'imageMessage') || isQuotedImage) { 
-          const cstic = await conn.sendMessage(from , { text: 'creating جاري صناعة الملصق' }, { quoted: mek } )
+          const cstic = await conn.sendMessage(from , { text: '  جاري صناعة الملصق انتظر...' }, { quoted: mek } )
           var nameJpg = getRandom('')
 	        isQuotedImage ? await v.quoted.download(nameJpg) : await v.download(nameJpg)
 	        var stik = await imageToWebp(nameJpg + '.jpg')
@@ -137,7 +137,7 @@ mek = mek.messages[0]
 		     .then(x => v.replyS(x))
          await conn.sendMessage(from, { delete: cstic.key })
          } else {
-	       v.reply('أين هي الصورة او الفيديو الذي تود ان تحوله للملصق يا عزيزي')
+	       v.reply('أين هي الصورة او الفيديو الذي تريد ان تحوله للملصق يا يبني')
         }
               break 
    // _ _ _ _ _ _ _ _ __  _ _ _ _ _ _  __  _ _ _ __ _  __ _  _ _ _ _ __ _ _  __  __ _  _ __  _ __ _ _ _  _ __ _  _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __  __ _  __ _ _ _ _   //      
@@ -555,7 +555,7 @@ await conn.sendMessage(from , { text: 'تعذر ارسال التطبيق آسف
 	        case 'الاوامر' : 
 		 await conn.sendMessage(from , { audio : fs.readFileSync("./src/alive.mpeg") , mimetype : 'audio/mpeg' , ptt: true  } , { quoted: mek })
 		      const msg = `╭────────────────────╮
-                  RAIZEL BOT
+                  🔱 𝚁𝚊𝚒𝚣𝚎𝚕 𝙱𝙾𝚃 🔱
 ╰────────────────────╯
 ╭────────────────────╮
 │ ❀  @🔱 𝚁𝚊𝚒𝚣𝚎𝚕 𝙱𝙾𝚃 🔱
@@ -578,7 +578,7 @@ https://wa.me/+967770500831
 │  ⸙ .alive      هل البوت شغال ام لا
 │  ⸙ .song           تحميل الموسيقى 
 ╰────────────────────╯
-     ʙʏ ɴᴏᴜʀᴇᴅᴅɪɴᴇ ᴏᴜᴀғʏ`
+     𝙱𝚈 𝚁𝙰𝙸𝚉𝙴𝙻 𝙶𝙾𝚁𝙹𝙴 𝟸𝟶𝟸𝟸`
 		      await conn.sendMessage(from , { text: msg }, { quoted: mek } )  
 		      
 		      break
