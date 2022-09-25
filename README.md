@@ -1,4 +1,6 @@
 # RAIZEL-MD BY RAIZEL SAMA
+# البوت العربي رقم 1 بالعالم
+# المطور رايزل جورج
 أول بوت عربي يقدم لك خدمات لا مثيل لها في الواتساب
 
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@bobizbotmd/BOBIZ-MD?v=1)
