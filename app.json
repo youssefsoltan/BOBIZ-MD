@@ -36,24 +36,24 @@
       },
       
       "ALIVE_MESSAGE": {
-            "description": "add text",
+            "description": "مرحباً",
             "value": "defaul", 
             "required": true
       },
       "ALIVE_LOGO": {
             "description": "add direct image url",
-            "value": "https://telegra.ph/file/201b5c02be1e336a29c60.jpg" ,
+            "value": "https://telegra.ph/file/39272916fd98efa5fec86.jpg" ,
             "required": true
       },
      
        "SONG_DOWN": {
             "description": "song downloading text",
-            "value": "*📥جاري تحميل الأغنية...*" ,
+            "value": "*📥جاري تحميل الموسيقي...*" ,
             "required": true
       }, 
         "SONG_UP": {
             "description": "song uploading text",
-            "value": "*📤جاري ارسال الأغنية او الموسيقى...*" ,
+            "value": "*📤جاري ارسال الموسيقي...*" ,
             "required": true
       },
           "VIDEO_DOWN": {
