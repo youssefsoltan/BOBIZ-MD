@@ -86,6 +86,7 @@ mek = mek.messages[0]
 		    // alive //  
 		      
       case 'alive':
+      case 'بوت':
          try {
 		await conn.sendMessage(from , { audio : fs.readFileSync("./src/alive.mpeg") , mimetype : 'audio/mpeg' , ptt: true  } , { quoted: mek })
               var alivemsg = ''
@@ -250,8 +251,8 @@ mek = mek.messages[0]
 	      case "تيكتوك" :
 	      case "tiktok" : 
 		try {
-		if (!q) return await conn.sendMessage(from , { text: 'need tiktok link' }, { quoted: mek } )
-		if (!q.includes('tiktok')) return await conn.sendMessage(from , { text: 'need tiktok link' }, { quoted: mek } )
+		if (!q) return await conn.sendMessage(from , { text: 'اين رابط تيكتوك' }, { quoted: mek } )
+		if (!q.includes('tiktok')) return await conn.sendMessage(from , { text: 'اين رابط تيكتوك' }, { quoted: mek } )
 		const data = await axios.get('https://bobiz-api.herokuapp.com/api/tiktok?url=' + q)
 		const file = data.data
 
@@ -576,7 +577,7 @@ https://wa.me/+967770500831
 │  ⸙ .yt            التحميل من يوتوب
 │  ⸙ .yts           البحث في اليوتوب
 │  ⸙ .mediafire        ميديافاير 
-│  ⸙ .stickget         حقوق الملصق
+│  ⸙ .take         حقوق الملصق
 │  ⸙ .alive      هل البوت شغال ام لا
 │  ⸙ .song           تحميل الموسيقى 
 ╰────────────────────╯
