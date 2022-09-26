@@ -3,7 +3,7 @@
 # المطور رايزل جورج
 أول بوت عربي يقدم لك خدمات لا مثيل لها في الواتساب
 
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@Raizelbot/RAIZEL-BOT-MD?v=)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@Raizelbot/RAIZEL-BOT-MD#index.js)
 
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Raizel-2023/BOBIZ-MD?organization=Raizel-2023&organization=Raizel-2023)
